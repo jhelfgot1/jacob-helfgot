@@ -58,7 +58,7 @@ function App() {
               title="Academic Projects"
               id="past-projects-dropdown"
             >
-              <NavDropdown.Item className="link" as={Link} to="/cg">
+              <NavDropdown.Item as={Link} to="/cg">
                 Computer Graphics
               </NavDropdown.Item>
             </NavDropdown>
