@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jacob-helfgot/static/css/main.a5622f6b.chunk.css",
+    "main.css": "/jacob-helfgot/static/css/main.19fb29c0.chunk.css",
     "main.js": "/jacob-helfgot/static/js/main.2dba3cc3.chunk.js",
     "main.js.map": "/jacob-helfgot/static/js/main.2dba3cc3.chunk.js.map",
     "runtime-main.js": "/jacob-helfgot/static/js/runtime-main.541096bf.js",
@@ -10,14 +10,14 @@
     "static/js/2.36b33f83.chunk.js.map": "/jacob-helfgot/static/js/2.36b33f83.chunk.js.map",
     "index.html": "/jacob-helfgot/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/jacob-helfgot/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.a5622f6b.chunk.css.map": "/jacob-helfgot/static/css/main.a5622f6b.chunk.css.map",
+    "static/css/main.19fb29c0.chunk.css.map": "/jacob-helfgot/static/css/main.19fb29c0.chunk.css.map",
     "static/js/2.36b33f83.chunk.js.LICENSE.txt": "/jacob-helfgot/static/js/2.36b33f83.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.541096bf.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.36b33f83.chunk.js",
-    "static/css/main.a5622f6b.chunk.css",
+    "static/css/main.19fb29c0.chunk.css",
     "static/js/main.2dba3cc3.chunk.js"
   ]
 }
