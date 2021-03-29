@@ -11,8 +11,8 @@
 
 @media (max-width: 750px) {
   .imageWithCaption img {
-    height: 60vw;
-    width: 80vw;
+    height: 45vw;
+    width: 60vw;
     margin-bottom: 1em;
   }
 }
