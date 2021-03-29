@@ -5,22 +5,23 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  NavLink as Link,
-  Redirect
+  NavLink as Link
 } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
-import { Nav } from "react-bootstrap";
+import Nav from "react-bootstrap/Nav";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 import Home from "./routes/Home";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
+import ComputerGraphics from "./routes/ComputerGraphics";
 import ExternalLinks from "./components/ExternalLinks";
 
 function App() {
   return (
-    <React.Fragment>
+    <div classname="App">
       <Router basename={process.env.PUBLIC_URL}>
-        <Navbar fixed="top" bg="light" expand="md">
+        <Navbar fixed="top" bg="dark" variant="dark" expand="md">
           <Navbar.Brand as={Link} to="/">
             Jacob Helfgot
           </Navbar.Brand>
@@ -30,7 +31,7 @@ function App() {
               exact
               as={Link}
               to="/"
-              className="text-primary"
+              className="link"
               activeClassName="font-weight-bold"
             >
               Home
@@ -39,7 +40,7 @@ function App() {
               exact
               as={Link}
               to="/about"
-              className="text-primary"
+              className="link"
               activeClassName="font-weight-bold"
             >
               About Me
@@ -47,24 +48,39 @@ function App() {
             <Nav.Link
               as={Link}
               to="/contact"
-              className="text-primary"
+              className="link"
               activeClassName="font-weight-bold"
             >
               Contact Me
             </Nav.Link>
+            <NavDropdown
+              className="link"
+              title="Academic Projects"
+              id="past-projects-dropdown"
+            >
+              <NavDropdown.Item className="link" as={Link} to="/cg">
+                Computer Graphics
+              </NavDropdown.Item>
+            </NavDropdown>
           </Navbar.Collapse>
         </Navbar>
         <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route exact path="/">
-            <Home />
-          </Route>
+          <div className="pageContent">
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/cg">
+              <ComputerGraphics />
+            </Route>
+            <Route exact path="/">
+              <Home />
+            </Route>
+          </div>
         </Switch>
+
         <div>
           <Navbar bg="light" fixed="bottom" expand="sm">
             <div style={{ margin: "auto" }}>
@@ -73,7 +89,7 @@ function App() {
           </Navbar>
         </div>
       </Router>
-    </React.Fragment>
+    </div>
   );
 }
 

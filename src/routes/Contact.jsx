@@ -8,7 +8,7 @@ const Contact = () => {
     <ul>
       <li>
         <a href="mailto:jhelfgot1@gmail.com" target="_blank">
-          Email Me :)
+          Email Me
         </a>
       </li>
       <li>

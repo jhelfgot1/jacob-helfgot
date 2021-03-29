@@ -1,0 +1,19 @@
+.carousel {
+  height: 480px;
+  width: 640px;
+  margin: auto;
+}
+
+@media (max-width: 770px) {
+  .carousel {
+    height: 320px;
+    width: 427px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel {
+    height: 240px;
+    width: 320px;
+  }
+}

@@ -1,0 +1,10 @@
+.imageWithCaption {
+  text-align: center;
+}
+
+.imageWithCaption img {
+  display: block;
+  margin: auto;
+  height: 300px;
+  width: 400px;
+}

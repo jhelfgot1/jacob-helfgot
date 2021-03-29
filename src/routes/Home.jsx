@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import Headshot from "../components/Headshot";
 import Content from "../components/Content";
 const Home = () => {
-  const headerContent = "Hi! Welcome to my website...";
+  const headerContent = "Hi! I'm Jacob";
   const pageContent = [
     <p>
-      My name is Jacob and I'm a full-stack software engineer. Head on over to
-      the <Link to="/about">"About Me"</Link> page if you want a little more
-      info on who I am and what I'm all about.
+      I'm a full-stack software engineer. Head on over to the{" "}
+      <Link to="/about">"About Me"</Link> page if you want a little more info on
+      who I am and what I'm all about.
     </p>,
     <p>
       I do appreciate you stopping by. I just recently started putting this site
