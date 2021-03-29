@@ -5,6 +5,14 @@
 .imageWithCaption img {
   display: block;
   margin: auto;
-  height: 300px;
-  width: 400px;
+  height: 30vw;
+  width: 40vw;
+}
+
+@media (max-width: 750px) {
+  .imageWithCaption img {
+    height: 60vw;
+    width: 80vw;
+    margin-bottom: 1em;
+  }
 }
